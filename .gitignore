@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+.venv/
+
+# Датасети — занадто великі для GitHub
+dataset/raw/
+dataset/final/
+
+# Результати навчання
+training/runs/
+
+# Модель для додатку — залишаємо
+!app/assets/model/best.pt
+
+# Записи і фото додатку
+app/recordings/
+app/photos/
+
+# PyInstaller
+dist/
+build/
+*.spec
+
+# Системне
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# YOLO кеш
+*.cache
+
+# Зайві моделі в корені
+yolo26n.pt
+yolov8s.pt
+
+# runs в корені
+runs/
